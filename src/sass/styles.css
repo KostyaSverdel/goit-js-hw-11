@@ -60,6 +60,7 @@ filter: drop-shadow(0 4px 4px #00000026);
             height: 41px;
             
 }
+
 .button-style:hover,
 .button-style:focus {
     color: gold;
@@ -80,8 +81,8 @@ filter: drop-shadow(0 4px 4px #00000026);
         filter: drop-shadow(0 4px 4px #00000026);
             width: 250px;
             height: 41px;
-            background-color: gold;
-            color: green;
+            background-color: #af10bd;
+            color: white;
             border: 1px solid #ffffff4d;
             border-radius: 4px;
             margin-top: 15px;
@@ -98,6 +99,10 @@ color: gold;
     padding: 5px;
     border-radius: 5px;
     background-color: rgb(248, 248, 242);
+}
+.photo-card:hover {
+    color: gold;
+    background-color: #af10bd;
 }
 .card-image {
     width: 300px;
@@ -116,8 +121,6 @@ color: gold;
     margin-block: 8px;
 }
 
-/* scroll up button */
-
 .js-scrollup-button {
     display: none;
     position: fixed;
@@ -128,7 +131,7 @@ color: gold;
     border: none;
     outline: none;
     background-color: #0000;
-    color: gold;
+    color: #af10bd;
     cursor: pointer;
 }
 
@@ -139,3 +142,4 @@ color: gold;
         border-radius: 50%;
     scale: 1.1;
 }
+
