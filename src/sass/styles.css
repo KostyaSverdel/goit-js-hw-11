@@ -76,10 +76,24 @@ filter: drop-shadow(0 4px 4px #00000026);
 
 .load-more-button {
     padding-inline: 50px;
-    font-size: 18px;
-    background-color: rgb(0, 236, 236);
+    font-size: 20px;
+        filter: drop-shadow(0 4px 4px #00000026);
+            width: 250px;
+            height: 41px;
+            background-color: gold;
+            color: green;
+            border: 1px solid #ffffff4d;
+            border-radius: 4px;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
 }
-.images-card {
+.load-more-button:hover,
+.load-more-button:focus {
+color: gold;
+    background-color: green;
+}
+.photo-card {
     outline: auto;
     padding: 5px;
     border-radius: 5px;
@@ -114,11 +128,14 @@ filter: drop-shadow(0 4px 4px #00000026);
     border: none;
     outline: none;
     background-color: #0000;
-    color: #ff6347dd;
+    color: gold;
     cursor: pointer;
 }
 
-.js-scrollup-button:hover {
-    color: rgb(0, 236, 236);
+.js-scrollup-button:hover,
+.js-scrollup-button:focus {
+    color: gold;
+        background-color: green;
+        border-radius: 50%;
     scale: 1.1;
 }

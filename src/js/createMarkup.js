@@ -4,7 +4,7 @@ export function createMarkup(res, gallery) {
       acc,
       { webformatURL, largeImageURL, tags, likes, views, comments, downloads }
     ) => {
-      return (acc += `<div class="images-card">
+      return (acc += `<div class="photo-card">
       <a href="${largeImageURL}">
         <img 
           class="card-image" 
